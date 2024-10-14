@@ -1,0 +1,34 @@
+.person-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:100%;
+  }
+  .figure{
+    background-color: rgb(42, 200, 200);
+  }
+  .person-block img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .person-block h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .person-block p {
+    margin: 0;
+    font-size: 18px;
+  }
+  .person-block a {
+    text-decoration: none;
+    color: black;
+  }
+  

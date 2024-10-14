@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.service-provider {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.service-provider img {
+  width: 30%;
+}
+
+.service-provider-img {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+
+.service-provider .details {
+  width: 40%;
+}
+
+.service-provider .details h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.service-provider .details div {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.confirm-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.confirm-section label {
+  font-weight: bold;
+}
+
+.confirm-section input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.confirm-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-section button:hover {
+  background-color: #006f8c;
+}
